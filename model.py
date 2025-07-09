@@ -1,8 +1,6 @@
 #target - 1 for heart disease, 0 for no heart disease
 #classification problem - heart disease assessment, using features to predict whether a user has heart disease
 
-#for saving model
-import joblib
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -44,10 +42,6 @@ X_test = scaler.transform(X_test)
 model = LogisticRegression(class_weight='balanced', random_state=42)
 model.fit(X_train, y_train)
 
-#saving the model and scaler after training
-joblib.dump(model, "model.pkl")
-joblib.dump(scaler, "scaler.pkl")
-
 #making the prediction 
 y_pred = model.predict(X_test)
 
@@ -59,4 +53,4 @@ print("ROC-AUC score", roc_auc_score(y_test,y_pred))
 print("f1 score", f1_score(y_test,y_pred))
 
 #shows no. of defaults and non defaults
-print(df['Default'].value_counts())
+print(df['target'].value_counts())
