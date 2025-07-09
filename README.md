@@ -14,7 +14,12 @@ Used commonly whenever it comes to binary classification problems, where the goa
 - https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/ -> helped me understand how to save/load models, without having to retrain models when using new data
 
 ### Personal Notes 
-#### These are notes I took, when developing and researching into the model
+#### These are notes I took, when developing and researching into the model...
+
+##### Current results of model:
+
+<img width="394" alt="image" src="https://github.com/user-attachments/assets/af80b834-0480-472a-ad9b-27ae58ec1c84" />
+
 
 ### Comments
 **I put alot of comments throughout the model, so users and I could understand briefly what the use of it is for, without putting too much unneccessary information.**
