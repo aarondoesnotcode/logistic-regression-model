@@ -8,6 +8,9 @@ Used commonly whenever it comes to binary classification problems, where the goa
 ## references
 - Dataset - https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
+  <img width="778" alt="image" src="https://github.com/user-attachments/assets/9d245ed3-fdcb-4073-8c94-88001a0fe96b" />
+
+
 **Documentation used:**
 - https://www.geeksforgeeks.org/machine-learning/ml-logistic-regression-using-python/ -> esentially helped me understand how the logistic regression works and how it is implemented using python
 - https://www.geeksforgeeks.org/python/how-to-split-the-dataset-with-scikit-learns-train_test_split-function/ -> understanding how to split the data that is being given to the model
